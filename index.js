@@ -1,7 +1,6 @@
 // const { Client, Intents } = require('discord.js');
 const { token, youtube_key } = require('./config.json');
 // const client = new Client({ intents : [Intents.FLAGS.GUILDS] });
-//test
 
 const { Client, Collection, Intents } = require('discord.js');
 const client = new Client({
