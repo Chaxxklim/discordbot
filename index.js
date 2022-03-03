@@ -41,7 +41,13 @@ const youtubeInfo_embed = {
 //state
 client.on('ready', () => {
     console.log('심재린 작동중...');
-    client.user.setActivity('작동', { type: 'PLAYING' })
+    client.user.setActivity('찢재명 지지', { type: 'PLAYING' })
+});
+
+//shardError
+client.on('shardError', error => {
+    console.log('여기부터 에러입니다;');
+	console.error('A websocket connection encountered an error:', error);
 });
 
 //msg
