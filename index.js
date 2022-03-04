@@ -104,15 +104,15 @@ client.on('messageCreate', async msg => {
 });
 
 client.on('interactionCreate', async interaction => {
-	// if (!interaction.isCommand()) return;
+	if (!interaction.isCommand()) return;
 
-	// const { commandName } = interaction;
+	const { commandName } = interaction;
 
-	// if (commandName === '재린') {
-	// 	await interaction.reply('이재명 화이팅!');
-	// } else if (commandName === '뭐먹지'){
-    //     await interaction.reply('아무거나 먹어라');
-    // }
+	if (commandName === '재린') {
+		await interaction.reply('이재명 화이팅!');
+	} else if (commandName === '뭐먹지'){
+        await interaction.reply('아무거나 먹어라');
+    }
 
 	if (!interaction.isCommand()) return;
 
