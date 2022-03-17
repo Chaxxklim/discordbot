@@ -3,7 +3,6 @@ const Youtube = require('youtube-node');
 const youtube = new Youtube();
 const { youtube_key } = require('../config.json');
 youtube.setKey(youtube_key);
-
 const ytdl = require("discord-ytdl-core");
 const { joinVoiceChannel, createAudioPlayer, createAudioResource, NoSubscriberBehavior } = require('@discordjs/voice');
 const { join } = require('path');
