@@ -23,7 +23,6 @@ module.exports = {
 
         //// 검색 옵션
         youtube.addParam('type', 'video');
-
         //search
         youtube.search(keyword, 1, (err, result) => {
             if (err) { console.log(err); return; }
