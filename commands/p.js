@@ -21,6 +21,7 @@ module.exports = {
         let keyword = interaction.options._hoistedOptions[0].value
         let url = ''
 
+        
         //// 검색 옵션
         youtube.addParam('type', 'video');
         //search
