@@ -38,7 +38,6 @@ const youtubeInfo_embed = {
     description: ''
 };
 
-
 //state
 client.on('ready', () => {
     console.log('심재린 작동중...');
