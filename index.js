@@ -1,4 +1,5 @@
 //API 버전 확인해볼것
+// async, await 공부할것
 // const { Client, Intents } = require('discord.js');
 const { token, youtube_key } = require('./config.json');
 // const client = new Client({ intents : [Intents.FLAGS.GUILDS] });
