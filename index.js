@@ -12,6 +12,7 @@ const ytdl = require("discord-ytdl-core");
 const { joinVoiceChannel, createAudioPlayer, NoSubscriberBehavior, createAudioResource, AudioPlayerStatus, SubscriptionStatus } = require('@discordjs/voice');
 const player = createAudioPlayer();
 
+
 const Youtube = require('youtube-node');
 const youtube = new Youtube();
 //YouTube Data API v3 개인key값
