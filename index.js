@@ -1,4 +1,5 @@
 //API 버전 확인해볼것
+//돌아가긴 하는데 유튜브가...
 // async, await 공부할것
 // const { Client, Intents } = require('discord.js');
 const { token, youtube_key } = require('./config.json');
