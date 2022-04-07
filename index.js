@@ -1,5 +1,5 @@
 //API 버전 확인해볼것
-//돌아가긴 하는데 유튜브가...
+//재린봇 유튜브 검색 추가
 // async, await 공부할것
 // const { Client, Intents } = require('discord.js');
 const { token, youtube_key } = require('./config.json');
