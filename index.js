@@ -2,6 +2,7 @@
 //재린봇 유튜브 검색 추가
 // async, await 공부할것
 // const { Client, Intents } = require('discord.js');
+// naver API 추가해야함
 const { token, youtube_key } = require('./config.json');
 // const client = new Client({ intents : [Intents.FLAGS.GUILDS] });
 const { Client, Collection, Intents } = require('discord.js');
